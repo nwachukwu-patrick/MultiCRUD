@@ -1,0 +1,14 @@
+{
+    "autoload":{
+        "psr-4":{
+            "admin\\":"App/admin",
+            "resources\\":"App/resources",
+            "upload\\":"App/public_html/upload",
+            "classes\\":"App/resources/php",
+            "templates\\":"App/resources/templates",
+            "conf\\":"shared/config",
+            "vendor\\":"vendor",
+            "bootstrap\\":"shared"
+        }
+    }
+}
